@@ -278,9 +278,6 @@ public final class TimelineView: UIView {
             }
         }
 
-        let minute = component(component: .minute, from: currentTime)
-        let hour = component(component: .hour, from: currentTime)
-
         let mutableParagraphStyle = NSParagraphStyle.default.mutableCopy() as! NSMutableParagraphStyle
         mutableParagraphStyle.lineBreakMode = .byWordWrapping
         mutableParagraphStyle.alignment = .right
