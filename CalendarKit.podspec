@@ -3,6 +3,8 @@ Pod::Spec.new do |s|
   s.summary          = "Swift calendar UI library for Apple platforms"
   s.version          = "0.12.3"
   s.homepage         = "https://bitbucket.org/qloga/calendarkit"
+  s.license          = 'MIT'
+  s.author           = { "Richard Topchii" => "richardtop@users.noreply.github.com" }
   s.source           = { :git => "https://bitbucket.org/qloga/calendarkit/src/QLoGaMods/CalendarKit.git", :branch => "QLoGaMods" }
 
   s.ios.deployment_target = "14.0"
